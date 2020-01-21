@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context="com.yfengtech.guide.cn.yfengtech.appguide.demo.display.GuideOnlyFirstActivity">
+
+    <RadioGroup
+            android:id="@+id/rg"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+                android:id="@+id/rb1"
+                android:text="只展示一次"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <RadioButton
+                android:id="@+id/rb2"
+                android:text="每次都展示"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+
+        <Button android:id="@+id/btnHighLight"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="我需要高亮"/>
+
+        <Button android:id="@+id/btnHighLight2"
+                android:layout_width="150dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="我也需要高亮"/>
+
+        <Button android:id="@+id/btnHighLight3"
+                android:layout_width="80dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="还有我"/>
+
+        <Button
+                android:id="@+id/buttonShowGuide"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="显示引导"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.yfengtech.appguide.demo">
+
+    <application>
+        <activity android:name="cn.yfengtech.appguide.demo.GuideSampleActivity" />
+        <activity android:name="cn.yfengtech.appguide.demo.display.FullScreenGuideActivity" />
+        <activity android:name="cn.yfengtech.appguide.demo.display.GuideOnlyFirstActivity" />
+    </application>
+</manifest>
